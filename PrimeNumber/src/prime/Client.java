@@ -65,7 +65,7 @@ public class Client extends Application {
     });
   
     try {
-      // Create a socket to connect to the server
+      // Create a socket to connect to the server.
       Socket socket = new Socket("localhost", 8000);
       // Socket socket = new Socket("130.254.204.36", 8000);
       // Socket socket = new Socket("drake.Armstrong.edu", 8000);
